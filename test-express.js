@@ -8,6 +8,15 @@ var getKeys = function(obj){
    return keys;
 };
 
+// alert -  for log instead of alert 
+var alert = function(m){
+console.log("alert -> \n\t");
+console.log(m);
+console.log('--------');
+};
+
+alert('asdasd');
+
 var app = express();
 // подключаем статические файлы :
 app.use('/pub',express.static('public'));
