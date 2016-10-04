@@ -1,0 +1,28 @@
+{
+  "name": "express-test",
+  "version": "1.0.0",
+  "description": "test prpoject for express fremework",
+  "main": "test-express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denirz/express-test.git"
+  },
+  "keywords": [
+    "express",
+    "test"
+  ],
+  "author": "Denis Irz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denirz/express-test/issues"
+  },
+  "homepage": "https://github.com/denirz/express-test#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "multer": "^1.2.0"
+  }
+}
