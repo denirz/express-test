@@ -1,21 +1,11 @@
+// import alert from "./utils";
+// import(utils);
+// import utils;
+// require(['utils'],function(alert));
+utils=require('./utils');
+utils.alert('asdasd');
+
 var express = require('express');
-
-var getKeys = function(obj){
-   var keys = [];
-   for(var key in obj){
-      keys.push(key);
-   }
-   return keys;
-};
-
-// alert -  for log instead of alert 
-var alert = function(m){
-console.log("alert -> \n\t");
-console.log(m);
-console.log('--------');
-};
-
-alert('asdasd');
 
 var app = express();
 // подключаем статические файлы :
